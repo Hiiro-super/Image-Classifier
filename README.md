@@ -69,4 +69,41 @@ pip install numpy tensorflow pillow opencv-python scikit-learn matplotlib
 ```
 
 ## ⑤ 分類スクリプトの作成
-作業フォルダで VS Code を起動。
+作業フォルダで VS Code を起動しclassify.pyを作成するため以下を実行します。
+```sh
+code classify.py　（メモ帳を使う場合はnotepad classify.pyでもよい）
+```
+（コードはアップロードされているものを参照）
+
+## ⑥ スクリプトの実行
+classify.pyと同じディレクトリ内にとanime_real_model.kerasを置き、以下を実行します。
+```sh
+python classify.py
+```
+以上により、任意のフォルダ内の画像がrealとanimeファイルに分かれます。
+
+# 分類をカスタムしたい場合(anime_real_model.kerasの変更）
+
+## ①データセット構成
+Google Driveを以下の構成にし、realとanime内に分類したいパターンに分けて写真を入れます。（最低10枚は必要）
+```sh
+MyDrive/
+ └─ dataset/
+     ├─ real/
+     └─ anime/
+```
+## ②KERASファイルを作成
+任意の場所で新しいGoogle Colabノートを作成し、以下のコードを実行します。
+```sh
+from google.colab import drive
+drive.mount('/content/drive')
+```
+これはGoogle Drive をマウントするためのコードです。
+```sh
+data_dir = "/content/drive/MyDrive/dataset"
+```
+これは①でのdatasetにアクセスするためのコードです。
+```sh
+```
+```sh
+```
