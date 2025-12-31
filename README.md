@@ -64,7 +64,7 @@ pip install numpy tensorflow pillow opencv-python scikit-learn matplotlib
 
 
 ## ④ 分類スクリプトの作成
-作業フォルダで VS Code を起動しclassify.pyを作成するため以下を実行します。
+作業フォルダで VS Code を起動しclassify.pyを作成するため以下を実行します。  
 コードはアップロードされているclassify.pyを参照してください。
 ```sh
 code classify.py　（メモ帳を使う場合はnotepad classify.pyでもよい）
@@ -82,7 +82,7 @@ https://drive.google.com/drive/folders/1MweaBHzv5CL1xOCG2tLy64340vWuZ02s?usp=dri
 
 
 ## ⑥ スクリプトの実行
-classify.pyと同じディレクトリ内にとanime_real_model.kerasを置き、以下を実行します。
+classify.pyと同じディレクトリ内にanime_real_model.kerasを置き、以下を実行します。
 ```sh
 python classify.py
 ```
@@ -90,7 +90,7 @@ python classify.py
 
 <br>
 
-以上により、任意のフォルダ内の画像がrealとanimeファイルに分かれます。
+以上により、任意のフォルダ内の画像がrealとanimeとunsureファイルに分かれます。
 
 
 
