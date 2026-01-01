@@ -98,7 +98,7 @@ python classify.py
 <br>
 <br>
 
-## 分類をカスタムしたい場合(anime_real_model.kerasの変更）
+## ~ 分類をカスタムしたい場合(anime_real_model.kerasの変更）~
 
 ## ①データセット構成
 Google Driveを以下の構成にし、`real`と`anime`内に分類したいパターンごとに画像を入れます。（最低10枚は必要）  
